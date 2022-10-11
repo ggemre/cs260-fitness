@@ -16,7 +16,7 @@ function App() {
           <Route exact path='/progress' element={<Progress />} />
         </Routes>
       </Router>
-      <footer>Link to GitHub repo: <a href="https://github.com/ggemre/cs260-fitness">Fire Fitness</a></footer>
+      <footer className="App-footer">Link to GitHub repo: <a href="https://github.com/ggemre/cs260-fitness">Fire Fitness</a></footer>
     </div>
   );
 }

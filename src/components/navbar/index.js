@@ -14,7 +14,7 @@ const Navbar = () => {
             Workout Plan
           </NavLink>
           <NavLink to="/progress">
-            Current Progress
+            Inspiration
           </NavLink>
         </NavMenu>
       </Nav>
