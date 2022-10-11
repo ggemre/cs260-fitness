@@ -25,7 +25,7 @@ const Progress = () => {
     else if (name === "ali") {
       aliWorkout.forEach(x => list.push(x));
     }
-    else {
+    else if (name === "jordan") {
       jordanWorkout.forEach(x => list.push(x));
     }
     
@@ -37,6 +37,7 @@ const Progress = () => {
       <h1>Get inspiration for your next workout.</h1>
         <label for="athletes" className="Progress-label">Today, I want to work out like </label>
         <select name="athletes" onChange={ update } id="dropdown" className="Progress-select">
+          <option value=""></option>
           <option value="phelps">Michael Phelps</option>
           <option value="ali">Muhammad Ali</option>
           <option value="jordan">Michael Jordan</option>
